@@ -79,8 +79,8 @@ h1
 
 .button
 {
-	margin-top: 200;
-	margin-left: 20;
+	margin-top: 270;
+	margin-left: -493;
 }
 
 .bttn
@@ -103,9 +103,20 @@ h1
 p
 {
 	position: relative;
-	top: -210;
+	top: -280;
 	margin-left: 20px;
 	max-width: 650px;
 	color: white;
+	font-size: 17px;
+}
+
+.contact
+{
+	margin-top: 0;
+	margin-left: -20;
 	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	font-family: "Roboto", sans-serif;
 }
