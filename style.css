@@ -80,7 +80,7 @@ h1
 .button
 {
 	margin-top: 270;
-	margin-left: -493;
+	margin-left: -465;
 }
 
 .bttn
@@ -98,6 +98,18 @@ h1
 {
 	background-color:blue;
 	transition: all 0.25s ease-in;
+}
+
+.Vbutton
+{
+	position: relative;
+	top: 50px;
+	left: -530px;
+}
+
+.overlay { /* could have put this under .button, but I want a little choice */
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 p
