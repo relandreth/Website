@@ -7,7 +7,7 @@
 header
 {
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.25)),url(Background1.JPG);
-	height: 100vh;
+	height: 100%;
 	background-size: cover;
 	background-position: center;
 }
@@ -16,7 +16,7 @@ header
 {
 	float: left;
 	list-style: none;
-	margin-top: 30px;
+	margin-top: 2.7%;
 }
 
 .main-nav li
@@ -28,9 +28,9 @@ header
 {
 	color: white;
 	text-decoration: none;
-	padding: 5px 20px;
+	padding: 0.46% 1.05%;
 	font-family: "Roboto", sans-serif;
-	font-size: 15px;
+	font-size: 1.39%;
 }
 
 .main-nav li.active a
@@ -46,8 +46,8 @@ header
 .profilePic img
 {
 	position: absolute;
-	top: 300px;
-	left: 300px;
+	top: 27.8%;
+	left: 23%;
 	border-radius: 30%;
 }
 
@@ -58,37 +58,37 @@ body
 
 .row
 {
-	max-width: 2000px;
+	max-width: 100%;
 	margin: auto;
 }
 
 .hero
 {
 	position: absolute;
-	top: 300px;
-	left: 790px;
-	padding: 10px;
+	top: 27%;
+	left: 47%;
+	padding: 1%;
 }
 
 h1
 {
 	color: white;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 200%;
 }
 
 .button
 {
-	margin-top: 270;
-	margin-left: -465;
+	margin-top: 26%;
+	margin-left: -46%;
 }
 
 .bttn
 {
 	border: 2px solid white;
-	padding: 10px 30px;
+	padding: 0.65% 2%;
 	color: white;
-	font: 13px;
+	font: 100%;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
@@ -104,7 +104,7 @@ h1
 {
 	position: relative;
 	top: 50px;
-	left: -530px;
+	left: -35%;
 }
 
 .overlay { /* could have put this under .button, but I want a little choice */
@@ -115,20 +115,20 @@ h1
 p
 {
 	position: relative;
-	top: -280;
-	margin-left: 20px;
-	max-width: 650px;
+	top: -280px;
+	margin-left: 0.25%;
+	max-width: 65%;
 	color: white;
-	font-size: 17px;
+	font-size: 100%;
 }
 
 .contact
 {
 	margin-top: 0;
-	margin-left: -20;
-	font-size: 15px;
+	margin-left: -1%;
+	font-size: 100%;
 	color: white;
 	text-decoration: none;
-	padding: 20px;
+	padding: 1.5%;
 	font-family: "Roboto", sans-serif;
 }
