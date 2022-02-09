@@ -75,12 +75,13 @@ body
 {
 	position: absolute;
 	top: 22%;
-	left: 48%;
+	left: 44%;
 	padding: 1%;
 }
 
 h1
 {
+	
 	color: white;
 	text-transform: uppercase;
 	font-size: 1.75vmax;
@@ -91,29 +92,42 @@ p1
 	position: fixed;
 	top: 30%;
 	margin-left: 0.25%;
-	max-width: 30%;
+	max-width: 35%;
 	color: white;
-	font-size: 1vmax;
+	font-size: 0.9vmax;
 }
 
 .button
 {
 	position: absolute;
-	margin-top: 30%;
-	margin-left: 20%;
+	top: 60%;
+	left: 23.5%;
+}
+
+.Vbutton
+{
+	position: relative;
+	top: 2.5vmax;
+	left: -49%;
+}
+
+.button-si
+{
+	position: relative;
+	top: 4vmax;
+	left: 10%;
 }
 
 .bttn
 {
-	display: Block;
-	width: 12vmax;
-	border: 2px rgba(0, 0, 0, 0.4);
-	padding: 0.85% 2%;
+	border: 2px solid White;
+	padding: 1% 2%;
 	color: white;
 	font-size: 0.75vmax;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
+	
 }
 
 .bttn:hover
@@ -123,13 +137,6 @@ p1
 	transition: all 0.25s ease-in;
 }
 
-/*.Vbutton
-{
-	position: relative;
-	top: 2.5vmax;
-	left: -35%;
-}*/
-
 .overlay 
 { /* could have put this under .button, but I want a little choice */
     overflow: auto;
@@ -138,7 +145,9 @@ p1
 
 .contact
 {
-	margin-top: 100%;
+	width: 100%;
+	position: relative;
+	margin-top: 60%;
 	margin-left: -1%;
 	font-size: 1vmax;
 	color: white;
